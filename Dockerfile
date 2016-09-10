@@ -1,4 +1,4 @@
-FROM node:5.3
+FROM node:4.5
 MAINTAINER Damien Dormal <dormal.damien@gmail.com>
 
 # use changes to package.json to force Docker not to use the cache

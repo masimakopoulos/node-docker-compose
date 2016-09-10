@@ -1,5 +1,7 @@
 db:
-  image: tutum/mongodb
+  image: mongo
+  volumes:
+    - /data/db
   restart: always
   env_file: .env.docker
 

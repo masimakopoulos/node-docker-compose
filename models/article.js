@@ -23,7 +23,7 @@ const ArticleSchema = new Schema({
  */
 
 ArticleSchema.path('title').required(true, 'Article title cannot be blank');
-ArticleSchema.path('body').required(true, 'Article body cannot be blank');
+//ArticleSchema.path('body').required(true, 'Article body cannot be blank');
 
 /**
  * Methods
